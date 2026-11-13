@@ -1,0 +1,1965 @@
+{
+  "topics": [
+    {
+      "id": "web",
+      "number": 1,
+      "title": "Web and Internet Fundamentals",
+      "nav": "Web",
+      "category": "Fundamentals",
+      "blurb": "3 lessons · 29 checklist items",
+      "resources": [
+        {
+          "title": "MDN Web docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "platform": "MDN"
+        },
+        {
+          "title": "HTTP overview",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+          "platform": "MDN"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "web-how-the-web-works",
+          "title": "How the web works",
+          "items": [
+            "Client and server",
+            "Browser rendering lifecycle",
+            "DNS lookup",
+            "IP addresses and ports",
+            "TCP/IP basics",
+            "TLS/HTTPS handshake",
+            "HTTP request/response cycle",
+            "Headers and body",
+            "Cookies and sessions",
+            "Caching",
+            "CDN basics",
+            "Reverse proxy",
+            "Web hosting and domains"
+          ]
+        },
+        {
+          "id": "web-http-fundamentals",
+          "title": "HTTP fundamentals",
+          "items": [
+            "HTTP methods: GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD",
+            "Status-code families: 1xx, 2xx, 3xx, 4xx, 5xx",
+            "Common status codes: 200, 201, 204, 301, 302, 304, 400, 401, 403, 404, 409, 422, 429, 500, 502, 503",
+            "Content types and MIME types",
+            "JSON, form data, URL encoding",
+            "CORS and preflight requests",
+            "Idempotency",
+            "Pagination, filtering, sorting",
+            "Rate limiting and retries"
+          ]
+        },
+        {
+          "id": "web-developer-environment",
+          "title": "Developer environment",
+          "items": [
+            "VS Code and extensions",
+            "Terminal / command line",
+            "Files, folders, paths and environment variables",
+            "Package managers",
+            "Browser DevTools: Elements, Console, Network, Sources, Performance, Application",
+            "Debugging and breakpoints",
+            "Reading documentation and error messages"
+          ]
+        }
+      ],
+      "itemCount": 29,
+      "lessonCount": 3,
+      "hoursLabel": "6h"
+    },
+    {
+      "id": "html",
+      "number": 2,
+      "title": "HTML5",
+      "nav": "HTML",
+      "category": "Frontend",
+      "blurb": "6 lessons · 41 checklist items",
+      "resources": [
+        {
+          "title": "HTML elements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "platform": "MDN"
+        },
+        {
+          "title": "Learn HTML",
+          "url": "https://web.dev/learn/html",
+          "platform": "web.dev"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "html-document-foundations",
+          "title": "Document foundations",
+          "items": [
+            "DOCTYPE",
+            "html, head, body",
+            "Metadata and viewport",
+            "Title, description, favicon",
+            "HTML entities and comments",
+            "Block vs inline elements"
+          ]
+        },
+        {
+          "id": "html-text-and-content",
+          "title": "Text and content",
+          "items": [
+            "Headings and paragraphs",
+            "Strong, emphasis, mark, small, del, ins",
+            "Lists: ordered, unordered, description",
+            "Links and anchor targets",
+            "Images, alt text, figure and figcaption",
+            "Audio and video",
+            "Iframes and embeds"
+          ]
+        },
+        {
+          "id": "html-semantic-html",
+          "title": "Semantic HTML",
+          "items": [
+            "header, nav, main, section, article, aside, footer",
+            "Address, time, details, summary",
+            "Semantic structure and landmark regions",
+            "Choosing elements for meaning"
+          ]
+        },
+        {
+          "id": "html-forms",
+          "title": "Forms",
+          "items": [
+            "form, label, input, textarea, select, option, button",
+            "Input types",
+            "name, value, placeholder, required",
+            "min, max, minlength, maxlength, pattern",
+            "Radio buttons and checkboxes",
+            "Fieldset and legend",
+            "Native validation",
+            "Autocomplete and accessible labels",
+            "Form submission and FormData"
+          ]
+        },
+        {
+          "id": "html-tables-and-advanced-html",
+          "title": "Tables and advanced HTML",
+          "items": [
+            "table, caption, thead, tbody, tfoot, tr, th, td",
+            "rowspan and colspan",
+            "Data attributes",
+            "Custom data-* attributes",
+            "Template and slot concepts",
+            "HTML parsing and DOM tree"
+          ]
+        },
+        {
+          "id": "html-accessibility-and-seo",
+          "title": "Accessibility and SEO",
+          "items": [
+            "Alt text",
+            "Keyboard navigation",
+            "Heading hierarchy",
+            "Accessible names and labels",
+            "ARIA roles and attributes when needed",
+            "Open Graph metadata",
+            "Canonical URLs",
+            "Structured data basics",
+            "Search-friendly semantic markup"
+          ]
+        }
+      ],
+      "itemCount": 41,
+      "lessonCount": 6,
+      "hoursLabel": "12h"
+    },
+    {
+      "id": "css",
+      "number": 3,
+      "title": "CSS3 and Responsive UI",
+      "nav": "CSS",
+      "category": "Frontend",
+      "blurb": "7 lessons · 63 checklist items",
+      "resources": [
+        {
+          "title": "Learn CSS",
+          "url": "https://web.dev/learn/css",
+          "platform": "web.dev"
+        },
+        {
+          "title": "Flexbox guide",
+          "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+          "platform": "CSS Tricks"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "css-css-foundations",
+          "title": "CSS foundations",
+          "items": [
+            "Syntax, selectors and declarations",
+            "Element, class, ID, attribute and pseudo selectors",
+            "Combinators",
+            "Specificity and cascade",
+            "Inheritance and initial/inherit/unset/revert",
+            "!important and why to avoid overuse",
+            "External, internal and inline CSS",
+            "CSS variables / custom properties"
+          ]
+        },
+        {
+          "id": "css-box-model-and-layout",
+          "title": "Box model and layout",
+          "items": [
+            "Content, padding, border, margin",
+            "box-sizing",
+            "Width, height, min/max dimensions",
+            "Display: block, inline, inline-block, none",
+            "Overflow and scrolling",
+            "Position: static, relative, absolute, fixed, sticky",
+            "z-index and stacking contexts",
+            "Float and clear (legacy awareness)",
+            "Margin collapse"
+          ]
+        },
+        {
+          "id": "css-typography-and-visual-styling",
+          "title": "Typography and visual styling",
+          "items": [
+            "Font family, size, weight, style",
+            "Line height and letter spacing",
+            "Text alignment and decoration",
+            "Web fonts and @font-face",
+            "Colors: HEX, RGB, HSL, alpha",
+            "Backgrounds, gradients and images",
+            "Borders, radius, outlines and shadows",
+            "Opacity and visibility"
+          ]
+        },
+        {
+          "id": "css-flexbox-and-grid",
+          "title": "Flexbox and Grid",
+          "items": [
+            "Flex container and items",
+            "Main/cross axis",
+            "justify-content, align-items, align-content",
+            "flex-grow, flex-shrink, flex-basis, gap, wrap",
+            "Grid tracks and templates",
+            "fr units, repeat, minmax",
+            "Grid areas and placement",
+            "auto-fit and auto-fill",
+            "Alignment and responsive grids"
+          ]
+        },
+        {
+          "id": "css-responsive-design",
+          "title": "Responsive design",
+          "items": [
+            "Mobile-first design",
+            "Media queries and breakpoints",
+            "Fluid sizing: %, vw, vh, rem, em, ch",
+            "clamp(), min(), max()",
+            "Responsive images",
+            "Responsive navigation",
+            "Touch targets",
+            "Orientation and reduced-motion preferences"
+          ]
+        },
+        {
+          "id": "css-modern-css",
+          "title": "Modern CSS",
+          "items": [
+            "Pseudo-classes and pseudo-elements",
+            "Transitions and transforms",
+            "Keyframe animations",
+            "2D/3D transforms",
+            "Filters and blend modes",
+            "Clip-path basics",
+            "Container queries",
+            "CSS nesting awareness",
+            "Layers with @layer",
+            "SCSS/Sass basics",
+            "CSS Modules and utility CSS",
+            "Tailwind CSS fundamentals"
+          ]
+        },
+        {
+          "id": "css-ui-quality",
+          "title": "UI quality",
+          "items": [
+            "Design tokens",
+            "Spacing and type scales",
+            "Reusable components",
+            "Dark/light themes",
+            "Focus states",
+            "Hover/active/disabled states",
+            "Cross-browser testing",
+            "Print styles",
+            "Avoiding layout shift"
+          ]
+        }
+      ],
+      "itemCount": 63,
+      "lessonCount": 7,
+      "hoursLabel": "14h"
+    },
+    {
+      "id": "javascript",
+      "number": 4,
+      "title": "JavaScript (Modern ES6+)",
+      "nav": "JS",
+      "category": "Frontend",
+      "blurb": "6 lessons · 67 checklist items",
+      "resources": [
+        {
+          "title": "javascript.info",
+          "url": "https://javascript.info/",
+          "platform": "javascript.info"
+        },
+        {
+          "title": "MDN JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "platform": "MDN"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "javascript-language-fundamentals",
+          "title": "Language fundamentals",
+          "items": [
+            "Values and data types",
+            "var, let, const",
+            "Operators and expressions",
+            "Type coercion and strict equality",
+            "Truthy and falsy values",
+            "Template literals",
+            "Conditionals and switch",
+            "Loops: for, while, for...of, for...in",
+            "Functions and parameters",
+            "Arrow functions",
+            "Scope and lexical scope",
+            "Hoisting",
+            "Closures",
+            "Execution context and call stack"
+          ]
+        },
+        {
+          "id": "javascript-data-structures",
+          "title": "Data structures",
+          "items": [
+            "Strings and string methods",
+            "Arrays and array methods",
+            "Objects and property access",
+            "Destructuring",
+            "Spread and rest",
+            "Map, Set, WeakMap, WeakSet",
+            "Date and Intl",
+            "Math and Number",
+            "JSON parse/stringify",
+            "Optional chaining and nullish coalescing"
+          ]
+        },
+        {
+          "id": "javascript-advanced-language-concepts",
+          "title": "Advanced language concepts",
+          "items": [
+            "this keyword",
+            "call, apply, bind",
+            "Prototypes and prototype chain",
+            "Constructor functions",
+            "Classes, inheritance and super",
+            "Encapsulation and private fields",
+            "Modules: import/export",
+            "Error handling: try/catch/finally and custom errors",
+            "Iterators and generators",
+            "Symbols",
+            "Garbage collection basics"
+          ]
+        },
+        {
+          "id": "javascript-asynchronous-javascript",
+          "title": "Asynchronous JavaScript",
+          "items": [
+            "Synchronous vs asynchronous code",
+            "Callbacks",
+            "Promises and chaining",
+            "async/await",
+            "Promise.all, allSettled, race, any",
+            "Event loop",
+            "Microtasks and macrotasks",
+            "Timers",
+            "Fetch API",
+            "AbortController and cancellation",
+            "Error handling in async code"
+          ]
+        },
+        {
+          "id": "javascript-browser-javascript",
+          "title": "Browser JavaScript",
+          "items": [
+            "DOM selection and traversal",
+            "Creating, updating and removing elements",
+            "Events and event object",
+            "Bubbling, capturing and delegation",
+            "Forms and validation",
+            "LocalStorage and SessionStorage",
+            "Cookies basics",
+            "History and URL APIs",
+            "Geolocation and browser permissions",
+            "Clipboard API",
+            "IntersectionObserver and MutationObserver",
+            "Web Workers and Service Workers overview"
+          ]
+        },
+        {
+          "id": "javascript-quality-and-performance",
+          "title": "Quality and performance",
+          "items": [
+            "Debugging in DevTools",
+            "ESLint and Prettier",
+            "Unit testing basics",
+            "Memory leaks",
+            "Debouncing and throttling",
+            "Event delegation",
+            "Lazy loading",
+            "Code splitting concepts",
+            "XSS prevention and safe DOM updates"
+          ]
+        }
+      ],
+      "itemCount": 67,
+      "lessonCount": 6,
+      "hoursLabel": "12h"
+    },
+    {
+      "id": "typescript",
+      "number": 5,
+      "title": "TypeScript",
+      "nav": "TS",
+      "category": "Frontend",
+      "blurb": "4 lessons · 33 checklist items",
+      "resources": [
+        {
+          "title": "TypeScript handbook",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+          "platform": "TypeScript"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "typescript-core-types",
+          "title": "Core types",
+          "items": [
+            "string, number, boolean, null, undefined, bigint, symbol",
+            "Arrays and tuples",
+            "Enums and alternatives",
+            "any, unknown, never, void",
+            "Literal types",
+            "Union and intersection types",
+            "Type inference and annotations"
+          ]
+        },
+        {
+          "id": "typescript-functions-and-objects",
+          "title": "Functions and objects",
+          "items": [
+            "Function parameter and return types",
+            "Optional and default parameters",
+            "Function overloads",
+            "Object types",
+            "Type aliases and interfaces",
+            "Readonly and optional properties",
+            "Index signatures",
+            "Excess property checks"
+          ]
+        },
+        {
+          "id": "typescript-advanced-typing",
+          "title": "Advanced typing",
+          "items": [
+            "Generics and constraints",
+            "keyof and typeof",
+            "Indexed access types",
+            "Conditional types",
+            "Mapped types",
+            "Utility types: Partial, Required, Pick, Omit, Record, Exclude, Extract, ReturnType, Parameters",
+            "Discriminated unions",
+            "Type guards and narrowing",
+            "Custom type predicates",
+            "Declaration files and ambient types"
+          ]
+        },
+        {
+          "id": "typescript-project-setup",
+          "title": "Project setup",
+          "items": [
+            "tsconfig.json",
+            "Strict mode",
+            "Target and module settings",
+            "Path aliases",
+            "TypeScript with React",
+            "TypeScript with Node and Express",
+            "Runtime validation vs compile-time types",
+            "Build and debugging"
+          ]
+        }
+      ],
+      "itemCount": 33,
+      "lessonCount": 4,
+      "hoursLabel": "8h"
+    },
+    {
+      "id": "react",
+      "number": 6,
+      "title": "React",
+      "nav": "React",
+      "category": "Frontend",
+      "blurb": "6 lessons · 59 checklist items",
+      "resources": [
+        {
+          "title": "React docs",
+          "url": "https://react.dev/learn",
+          "platform": "React"
+        },
+        {
+          "title": "React Router",
+          "url": "https://reactrouter.com/home",
+          "platform": "React Router"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "react-foundations",
+          "title": "Foundations",
+          "items": [
+            "Why React and component-based UI",
+            "Create a React project with Vite",
+            "JSX rules",
+            "Functional components",
+            "Props and one-way data flow",
+            "Composition and children",
+            "Conditional rendering",
+            "Rendering lists and stable keys"
+          ]
+        },
+        {
+          "id": "react-state-and-events",
+          "title": "State and events",
+          "items": [
+            "Event handling",
+            "useState",
+            "State updates and batching",
+            "Controlled and uncontrolled inputs",
+            "Lifting state up",
+            "Derived state",
+            "Form handling",
+            "State immutability"
+          ]
+        },
+        {
+          "id": "react-hooks",
+          "title": "Hooks",
+          "items": [
+            "Rules of Hooks",
+            "useEffect and cleanup",
+            "Dependency arrays",
+            "useRef",
+            "useContext",
+            "useReducer",
+            "useMemo",
+            "useCallback",
+            "Custom hooks",
+            "useId",
+            "useTransition and useDeferredValue overview",
+            "Avoiding unnecessary effects"
+          ]
+        },
+        {
+          "id": "react-routing-and-data",
+          "title": "Routing and data",
+          "items": [
+            "React Router",
+            "Nested routes and layouts",
+            "Route parameters",
+            "Navigation and redirects",
+            "Protected routes",
+            "Loading and error states",
+            "Fetch and Axios",
+            "Server state vs UI state",
+            "TanStack Query / React Query basics"
+          ]
+        },
+        {
+          "id": "react-architecture-and-ecosystem",
+          "title": "Architecture and ecosystem",
+          "items": [
+            "Context API",
+            "Redux Toolkit or Zustand overview",
+            "Component folder structure",
+            "Reusable UI components",
+            "Design systems",
+            "React Hook Form",
+            "Zod validation",
+            "Error boundaries",
+            "Portals",
+            "Suspense and lazy loading",
+            "SSR, SSG and hydration concepts",
+            "Next.js fundamentals"
+          ]
+        },
+        {
+          "id": "react-testing-and-optimization",
+          "title": "Testing and optimization",
+          "items": [
+            "React Testing Library",
+            "Vitest or Jest",
+            "Mocking API calls",
+            "Component and integration tests",
+            "React DevTools",
+            "Profiler",
+            "Memoization",
+            "Virtualization",
+            "Accessibility testing",
+            "SEO considerations"
+          ]
+        }
+      ],
+      "itemCount": 59,
+      "lessonCount": 6,
+      "hoursLabel": "12h"
+    },
+    {
+      "id": "node",
+      "number": 7,
+      "title": "Node.js and Express.js",
+      "nav": "Node",
+      "category": "Backend",
+      "blurb": "5 lessons · 52 checklist items",
+      "resources": [
+        {
+          "title": "Node.js docs",
+          "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+          "platform": "Node.js"
+        },
+        {
+          "title": "Express guide",
+          "url": "https://expressjs.com/en/starter/installing.html",
+          "platform": "Express"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "node-node-js-foundations",
+          "title": "Node.js foundations",
+          "items": [
+            "Node runtime and V8",
+            "Node vs browser JavaScript",
+            "npm, npx and package.json",
+            "CommonJS and ES modules",
+            "Built-in modules: fs, path, http, os, crypto, events, stream",
+            "Buffers and streams",
+            "EventEmitter",
+            "Environment variables",
+            "Process and exit codes",
+            "Async I/O and event loop"
+          ]
+        },
+        {
+          "id": "node-express-js",
+          "title": "Express.js",
+          "items": [
+            "Create an Express server",
+            "Routes and route parameters",
+            "Query strings and request body",
+            "Middleware and middleware order",
+            "Built-in and custom middleware",
+            "Router modules",
+            "Controllers and services",
+            "Request validation",
+            "Static files",
+            "Centralized error handling",
+            "404 handling",
+            "CORS configuration"
+          ]
+        },
+        {
+          "id": "node-backend-engineering",
+          "title": "Backend engineering",
+          "items": [
+            "Layered architecture",
+            "MVC pattern",
+            "Dependency injection concepts",
+            "Configuration management",
+            "Logging",
+            "Pagination, filtering and sorting",
+            "File upload and storage",
+            "Email integration",
+            "Background jobs and queues",
+            "Caching with Redis basics",
+            "WebSockets and real-time events"
+          ]
+        },
+        {
+          "id": "node-authentication-and-security",
+          "title": "Authentication and security",
+          "items": [
+            "Password hashing with bcrypt/Argon2",
+            "JWT access and refresh tokens",
+            "Sessions and cookies",
+            "OAuth 2.0 and OpenID Connect overview",
+            "Role-based access control",
+            "Input validation and sanitization",
+            "Helmet and security headers",
+            "Rate limiting",
+            "SQL/NoSQL injection prevention",
+            "CSRF, XSS and SSRF awareness",
+            "Secrets management"
+          ]
+        },
+        {
+          "id": "node-production-readiness",
+          "title": "Production readiness",
+          "items": [
+            "Graceful shutdown",
+            "Health and readiness endpoints",
+            "Process managers",
+            "Clustering basics",
+            "Structured logs",
+            "Monitoring and metrics",
+            "Node performance profiling",
+            "Environment-specific configuration"
+          ]
+        }
+      ],
+      "itemCount": 52,
+      "lessonCount": 5,
+      "hoursLabel": "10h"
+    },
+    {
+      "id": "python",
+      "number": 8,
+      "title": "Python",
+      "nav": "Python",
+      "category": "Backend",
+      "blurb": "4 lessons · 38 checklist items",
+      "resources": [
+        {
+          "title": "Python tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "platform": "Python.org"
+        },
+        {
+          "title": "FastAPI",
+          "url": "https://fastapi.tiangolo.com/tutorial/",
+          "platform": "FastAPI"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "python-language-foundations",
+          "title": "Language foundations",
+          "items": [
+            "Syntax, indentation and comments",
+            "Variables and built-in types",
+            "Operators and control flow",
+            "Loops and comprehensions",
+            "Functions, arguments and return values",
+            "Scope and namespaces",
+            "Strings and formatting",
+            "Lists, tuples, sets and dictionaries"
+          ]
+        },
+        {
+          "id": "python-intermediate-python",
+          "title": "Intermediate Python",
+          "items": [
+            "Modules and packages",
+            "pip and virtual environments",
+            "File handling and context managers",
+            "Exceptions and custom exceptions",
+            "Classes and objects",
+            "Inheritance, composition and polymorphism",
+            "Dataclasses",
+            "Iterators and generators",
+            "Decorators",
+            "Type hints",
+            "Regular expressions",
+            "JSON and CSV"
+          ]
+        },
+        {
+          "id": "python-backend-and-automation",
+          "title": "Backend and automation",
+          "items": [
+            "FastAPI or Flask fundamentals",
+            "Routing and request handling",
+            "Pydantic validation",
+            "SQLAlchemy basics",
+            "API documentation",
+            "Background tasks",
+            "Calling external APIs",
+            "Automation scripts",
+            "Environment variables",
+            "Logging and testing with pytest"
+          ]
+        },
+        {
+          "id": "python-data-and-ai-foundations",
+          "title": "Data and AI foundations",
+          "items": [
+            "NumPy basics",
+            "Pandas basics",
+            "Data cleaning",
+            "Jupyter notebooks",
+            "Matplotlib basics",
+            "CSV/JSON data processing",
+            "Model inference concepts",
+            "Using Python SDKs for AI services"
+          ]
+        }
+      ],
+      "itemCount": 38,
+      "lessonCount": 4,
+      "hoursLabel": "8h"
+    },
+    {
+      "id": "java",
+      "number": 9,
+      "title": "Java",
+      "nav": "Java",
+      "category": "Backend",
+      "blurb": "5 lessons · 50 checklist items",
+      "resources": [
+        {
+          "title": "Oracle Java tutorials",
+          "url": "https://docs.oracle.com/javase/tutorial/",
+          "platform": "Oracle"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "java-core-java",
+          "title": "Core Java",
+          "items": [
+            "JDK, JRE and JVM",
+            "Compilation and bytecode",
+            "Variables and primitive/reference types",
+            "Operators and control flow",
+            "Methods and parameter passing",
+            "Arrays and strings",
+            "StringBuilder and StringBuffer",
+            "Packages and access modifiers"
+          ]
+        },
+        {
+          "id": "java-object-oriented-programming",
+          "title": "Object-oriented programming",
+          "items": [
+            "Classes and objects",
+            "Constructors and overloading",
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism and overriding",
+            "Abstraction",
+            "Interfaces and abstract classes",
+            "Composition vs inheritance",
+            "this and super",
+            "static and final"
+          ]
+        },
+        {
+          "id": "java-core-apis-and-advanced-topics",
+          "title": "Core APIs and advanced topics",
+          "items": [
+            "Exception hierarchy and custom exceptions",
+            "Collections: List, Set, Queue, Map",
+            "ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap",
+            "Generics",
+            "Comparable and Comparator",
+            "equals and hashCode",
+            "Java 8+ lambdas",
+            "Functional interfaces",
+            "Streams API",
+            "Optional",
+            "Date and Time API",
+            "Enums and records",
+            "Annotations",
+            "Reflection basics"
+          ]
+        },
+        {
+          "id": "java-concurrency-and-jvm",
+          "title": "Concurrency and JVM",
+          "items": [
+            "Thread and Runnable",
+            "ExecutorService",
+            "Synchronization and locks",
+            "volatile and atomic types",
+            "CompletableFuture",
+            "Deadlock and race conditions",
+            "Heap, stack and metaspace",
+            "Garbage collection basics",
+            "JVM memory and profiling"
+          ]
+        },
+        {
+          "id": "java-java-tools-and-persistence",
+          "title": "Java tools and persistence",
+          "items": [
+            "Maven or Gradle",
+            "JUnit",
+            "Mockito",
+            "JDBC",
+            "PreparedStatement",
+            "Transactions",
+            "Connection pooling",
+            "Logging with SLF4J and Logback",
+            "Debugging"
+          ]
+        }
+      ],
+      "itemCount": 50,
+      "lessonCount": 5,
+      "hoursLabel": "10h"
+    },
+    {
+      "id": "spring",
+      "number": 10,
+      "title": "Spring and Spring Boot",
+      "nav": "Spring",
+      "category": "Backend",
+      "blurb": "6 lessons · 56 checklist items",
+      "resources": [
+        {
+          "title": "Spring Boot",
+          "url": "https://spring.io/projects/spring-boot",
+          "platform": "Spring"
+        },
+        {
+          "title": "Spring guides",
+          "url": "https://spring.io/guides",
+          "platform": "Spring"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "spring-spring-fundamentals",
+          "title": "Spring fundamentals",
+          "items": [
+            "Inversion of Control",
+            "Dependency Injection",
+            "Beans and application context",
+            "Component scanning",
+            "@Component, @Service, @Repository, @Controller",
+            "@Configuration and @Bean",
+            "Bean scopes and lifecycle",
+            "Constructor injection"
+          ]
+        },
+        {
+          "id": "spring-spring-boot",
+          "title": "Spring Boot",
+          "items": [
+            "Starters and auto-configuration",
+            "Spring Initializr",
+            "application.properties and YAML",
+            "Profiles",
+            "Configuration properties",
+            "Embedded server",
+            "Actuator and health checks",
+            "Logging configuration"
+          ]
+        },
+        {
+          "id": "spring-rest-application-development",
+          "title": "REST application development",
+          "items": [
+            "@RestController and @RequestMapping",
+            "GET, POST, PUT, PATCH, DELETE endpoints",
+            "Path variables and query parameters",
+            "RequestBody and ResponseEntity",
+            "DTOs and mapping",
+            "Validation with Bean Validation",
+            "Global exception handling",
+            "Consistent API response format",
+            "Pagination and sorting"
+          ]
+        },
+        {
+          "id": "spring-persistence",
+          "title": "Persistence",
+          "items": [
+            "Spring Data JPA",
+            "Hibernate ORM",
+            "Entities and repositories",
+            "Entity relationships",
+            "One-to-one, one-to-many, many-to-many",
+            "Lazy vs eager loading",
+            "JPQL and native queries",
+            "Transactions and @Transactional",
+            "N+1 query problem",
+            "Database migrations with Flyway or Liquibase"
+          ]
+        },
+        {
+          "id": "spring-security-and-advanced-spring",
+          "title": "Security and advanced Spring",
+          "items": [
+            "Spring Security filter chain",
+            "Authentication and authorization",
+            "PasswordEncoder",
+            "JWT integration",
+            "Method-level security",
+            "CORS and CSRF",
+            "OAuth2 resource server overview",
+            "Caching",
+            "Scheduling",
+            "Async methods",
+            "Messaging overview",
+            "Microservices fundamentals",
+            "Spring Cloud overview"
+          ]
+        },
+        {
+          "id": "spring-testing-and-delivery",
+          "title": "Testing and delivery",
+          "items": [
+            "JUnit 5",
+            "Mockito",
+            "MockMvc",
+            "Spring Boot integration tests",
+            "Testcontainers overview",
+            "Maven build lifecycle",
+            "Profiles and external configuration",
+            "Dockerizing a Spring Boot app"
+          ]
+        }
+      ],
+      "itemCount": 56,
+      "lessonCount": 6,
+      "hoursLabel": "12h"
+    },
+    {
+      "id": "api",
+      "number": 11,
+      "title": "REST APIs and API Engineering",
+      "nav": "REST API",
+      "category": "Backend",
+      "blurb": "3 lessons · 29 checklist items",
+      "resources": [
+        {
+          "title": "MDN REST",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+          "platform": "MDN"
+        },
+        {
+          "title": "OpenAPI",
+          "url": "https://swagger.io/specification/",
+          "platform": "Swagger"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "api-api-design",
+          "title": "API design",
+          "items": [
+            "Resource-oriented URLs",
+            "REST constraints and statelessness",
+            "HTTP methods and status codes",
+            "JSON request/response design",
+            "Naming conventions",
+            "Versioning strategies",
+            "Pagination: offset and cursor",
+            "Filtering and sorting",
+            "Search endpoints",
+            "Bulk operations"
+          ]
+        },
+        {
+          "id": "api-reliability-and-documentation",
+          "title": "Reliability and documentation",
+          "items": [
+            "Validation and error schemas",
+            "Idempotency keys",
+            "Rate limits and quotas",
+            "Retries and exponential backoff",
+            "Timeouts",
+            "Caching and ETags",
+            "OpenAPI / Swagger",
+            "Postman collections and environments",
+            "API contracts",
+            "Backward compatibility"
+          ]
+        },
+        {
+          "id": "api-integrations",
+          "title": "Integrations",
+          "items": [
+            "Third-party API authentication",
+            "API keys and OAuth",
+            "Webhooks and signature verification",
+            "Webhook retries and idempotency",
+            "File and media APIs",
+            "Payment gateway concepts",
+            "Email and SMS APIs",
+            "GraphQL fundamentals",
+            "SOAP awareness"
+          ]
+        }
+      ],
+      "itemCount": 29,
+      "lessonCount": 3,
+      "hoursLabel": "6h"
+    },
+    {
+      "id": "sql",
+      "number": 12,
+      "title": "Databases: SQL, MySQL and PostgreSQL",
+      "nav": "SQL",
+      "category": "Database",
+      "blurb": "5 lessons · 53 checklist items",
+      "resources": [
+        {
+          "title": "PostgreSQL tutorial",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "platform": "PostgreSQL"
+        },
+        {
+          "title": "MySQL docs",
+          "url": "https://dev.mysql.com/doc/",
+          "platform": "MySQL"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sql-database-fundamentals",
+          "title": "Database fundamentals",
+          "items": [
+            "Relational vs non-relational databases",
+            "Tables, rows and columns",
+            "Data types",
+            "Primary and foreign keys",
+            "Constraints: NOT NULL, UNIQUE, CHECK, DEFAULT",
+            "Relationships and cardinality",
+            "ER diagrams and normalization",
+            "1NF, 2NF, 3NF and denormalization"
+          ]
+        },
+        {
+          "id": "sql-sql-essentials",
+          "title": "SQL essentials",
+          "items": [
+            "CREATE, ALTER, DROP, TRUNCATE",
+            "INSERT, SELECT, UPDATE, DELETE",
+            "WHERE, ORDER BY, LIMIT/OFFSET",
+            "DISTINCT and aliases",
+            "LIKE, IN, BETWEEN, IS NULL",
+            "Aggregate functions",
+            "GROUP BY and HAVING",
+            "INNER, LEFT, RIGHT and FULL joins",
+            "Self joins and cross joins",
+            "Subqueries and correlated subqueries",
+            "UNION and UNION ALL",
+            "CASE expressions",
+            "CTEs and recursive CTEs",
+            "Window functions"
+          ]
+        },
+        {
+          "id": "sql-database-engineering",
+          "title": "Database engineering",
+          "items": [
+            "Indexes and index types",
+            "Query plans and EXPLAIN",
+            "Transactions and ACID",
+            "Isolation levels",
+            "Locks and deadlocks",
+            "Views and materialized views",
+            "Stored procedures and functions",
+            "Triggers",
+            "Sequences and identity columns",
+            "Backup and restore",
+            "Connection pooling",
+            "Migrations and schema versioning"
+          ]
+        },
+        {
+          "id": "sql-mysql-specifics",
+          "title": "MySQL specifics",
+          "items": [
+            "MySQL server and client",
+            "InnoDB",
+            "AUTO_INCREMENT",
+            "Indexes and EXPLAIN",
+            "Transactions",
+            "Users and privileges",
+            "mysqldump and restore",
+            "MySQL Workbench"
+          ]
+        },
+        {
+          "id": "sql-postgresql-specifics",
+          "title": "PostgreSQL specifics",
+          "items": [
+            "Schemas and search_path",
+            "SERIAL and IDENTITY",
+            "JSON and JSONB",
+            "UUID",
+            "Array and custom types",
+            "RETURNING",
+            "UPSERT with ON CONFLICT",
+            "Full-text search basics",
+            "Extensions and pgAdmin",
+            "pg_dump and restore",
+            "Roles and privileges"
+          ]
+        }
+      ],
+      "itemCount": 53,
+      "lessonCount": 5,
+      "hoursLabel": "10h"
+    },
+    {
+      "id": "mongodb",
+      "number": 13,
+      "title": "MongoDB and NoSQL",
+      "nav": "MongoDB",
+      "category": "Database",
+      "blurb": "4 lessons · 29 checklist items",
+      "resources": [
+        {
+          "title": "MongoDB University",
+          "url": "https://learn.mongodb.com/",
+          "platform": "MongoDB"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mongodb-mongodb-foundations",
+          "title": "MongoDB foundations",
+          "items": [
+            "Documents and collections",
+            "BSON and JSON",
+            "MongoDB Atlas and local setup",
+            "CRUD operations",
+            "Filters and projections",
+            "Sorting, limit and skip",
+            "Nested documents and arrays",
+            "ObjectId"
+          ]
+        },
+        {
+          "id": "mongodb-data-modeling",
+          "title": "Data modeling",
+          "items": [
+            "Embedding vs referencing",
+            "One-to-one and one-to-many modeling",
+            "Schema validation",
+            "Denormalization trade-offs",
+            "Document size and access patterns"
+          ]
+        },
+        {
+          "id": "mongodb-advanced-mongodb",
+          "title": "Advanced MongoDB",
+          "items": [
+            "Indexes: single, compound, multikey, text, TTL, unique",
+            "Aggregation pipeline",
+            "$match, $project, $group, $sort, $lookup, $unwind",
+            "Transactions",
+            "Replica sets",
+            "Sharding concepts",
+            "Change streams",
+            "Backup and restore",
+            "Security roles and network access"
+          ]
+        },
+        {
+          "id": "mongodb-node-integration",
+          "title": "Node integration",
+          "items": [
+            "MongoDB Node driver",
+            "Mongoose schemas and models",
+            "Validation and middleware",
+            "Population",
+            "Lean queries",
+            "Indexes in Mongoose",
+            "Transactions and error handling"
+          ]
+        }
+      ],
+      "itemCount": 29,
+      "lessonCount": 4,
+      "hoursLabel": "8h"
+    },
+    {
+      "id": "ai",
+      "number": 14,
+      "title": "AI, Generative AI and AI Tools",
+      "nav": "AI",
+      "category": "AI",
+      "blurb": "6 lessons · 62 checklist items",
+      "resources": [
+        {
+          "title": "OpenAI docs",
+          "url": "https://platform.openai.com/docs",
+          "platform": "OpenAI"
+        },
+        {
+          "title": "Prompt engineering",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+          "platform": "OpenAI"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ai-ai-foundations",
+          "title": "AI foundations",
+          "items": [
+            "AI vs machine learning vs deep learning",
+            "Supervised, unsupervised and reinforcement learning",
+            "Training vs inference",
+            "Models, parameters and tokens",
+            "Embeddings and vector representations",
+            "Neural network basics",
+            "Evaluation and hallucinations",
+            "Privacy, bias and responsible AI"
+          ]
+        },
+        {
+          "id": "ai-generative-ai-and-llms",
+          "title": "Generative AI and LLMs",
+          "items": [
+            "Large language models",
+            "Tokens and context windows",
+            "System, developer and user instructions",
+            "Prompt structure and context",
+            "Zero-shot and few-shot prompting",
+            "Structured JSON output",
+            "Function/tool calling",
+            "Streaming responses",
+            "Temperature and sampling",
+            "Multimodal models: text, image, audio"
+          ]
+        },
+        {
+          "id": "ai-ai-application-development",
+          "title": "AI application development",
+          "items": [
+            "Calling model APIs",
+            "API keys and secret storage",
+            "Prompt templates",
+            "Conversation history and memory design",
+            "Embeddings",
+            "Vector databases",
+            "Semantic search",
+            "Retrieval-Augmented Generation (RAG)",
+            "Chunking and metadata",
+            "Hybrid search and reranking",
+            "Citations and grounded answers",
+            "Guardrails and content filtering",
+            "Evaluation datasets",
+            "Latency and token cost control",
+            "Caching and fallbacks"
+          ]
+        },
+        {
+          "id": "ai-ai-agents-and-workflows",
+          "title": "AI agents and workflows",
+          "items": [
+            "Agents vs ordinary chat completions",
+            "Tools and function calling",
+            "Planning and execution loops",
+            "State and checkpoints",
+            "Human approval steps",
+            "Multi-agent concepts",
+            "Workflow orchestration",
+            "Observability and tracing",
+            "Prompt injection risks"
+          ]
+        },
+        {
+          "id": "ai-ai-coding-tools",
+          "title": "AI coding tools",
+          "items": [
+            "ChatGPT",
+            "Claude",
+            "GitHub Copilot",
+            "Cursor",
+            "Windsurf",
+            "Gemini",
+            "Perplexity",
+            "OpenCode",
+            "Codeium / Windsurf awareness",
+            "Figma AI and design assistants",
+            "Prompting for code generation",
+            "Repository context and rules files",
+            "Reviewing generated code",
+            "Testing AI-generated code",
+            "Never trusting generated secrets or dependencies blindly"
+          ]
+        },
+        {
+          "id": "ai-ai-project-practice",
+          "title": "AI project practice",
+          "items": [
+            "Build a document Q&A assistant",
+            "Build a support chatbot with RAG",
+            "Build a structured data extraction tool",
+            "Build an AI feature with human review",
+            "Measure accuracy, latency and cost"
+          ]
+        }
+      ],
+      "itemCount": 62,
+      "lessonCount": 6,
+      "hoursLabel": "12h"
+    },
+    {
+      "id": "aws",
+      "number": 15,
+      "title": "Cloud, AWS and Deployment",
+      "nav": "AWS",
+      "category": "Cloud",
+      "blurb": "5 lessons · 45 checklist items",
+      "resources": [
+        {
+          "title": "AWS getting started",
+          "url": "https://aws.amazon.com/getting-started/",
+          "platform": "AWS"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "aws-cloud-foundations",
+          "title": "Cloud foundations",
+          "items": [
+            "What cloud computing is",
+            "IaaS, PaaS and SaaS",
+            "Public, private and hybrid cloud",
+            "Regions and availability zones",
+            "Scalability and elasticity",
+            "High availability and fault tolerance",
+            "Shared responsibility model",
+            "Pay-as-you-go cost model"
+          ]
+        },
+        {
+          "id": "aws-aws-identity-and-networking",
+          "title": "AWS identity and networking",
+          "items": [
+            "AWS account and billing alerts",
+            "IAM users, roles, policies and least privilege",
+            "MFA",
+            "VPC, subnets and route tables",
+            "Internet and NAT gateways",
+            "Security groups and network ACLs",
+            "Route 53 DNS",
+            "CloudFront CDN",
+            "ACM certificates and HTTPS"
+          ]
+        },
+        {
+          "id": "aws-aws-compute-and-storage",
+          "title": "AWS compute and storage",
+          "items": [
+            "EC2 instances and key pairs",
+            "AMI and EBS",
+            "S3 buckets, objects and policies",
+            "S3 versioning and lifecycle",
+            "Static website hosting",
+            "Lambda functions",
+            "API Gateway",
+            "Elastic Beanstalk overview",
+            "ECS and ECR overview",
+            "Lightsail overview"
+          ]
+        },
+        {
+          "id": "aws-aws-databases-and-operations",
+          "title": "AWS databases and operations",
+          "items": [
+            "RDS for MySQL/PostgreSQL",
+            "DynamoDB basics",
+            "ElastiCache overview",
+            "Secrets Manager and Parameter Store",
+            "CloudWatch logs, metrics and alarms",
+            "CloudTrail auditing",
+            "AWS Backup",
+            "Budgets and Cost Explorer"
+          ]
+        },
+        {
+          "id": "aws-deployment-practice",
+          "title": "Deployment practice",
+          "items": [
+            "Build frontend for production",
+            "Deploy React static app",
+            "Deploy Node/Express API",
+            "Deploy Spring Boot service",
+            "Configure production database",
+            "Environment variables and secrets",
+            "Domain and DNS setup",
+            "HTTPS and certificates",
+            "Logs and health checks",
+            "Rollback and backup strategy"
+          ]
+        }
+      ],
+      "itemCount": 45,
+      "lessonCount": 5,
+      "hoursLabel": "10h"
+    },
+    {
+      "id": "devops",
+      "number": 16,
+      "title": "Docker, Linux and DevOps",
+      "nav": "DevOps",
+      "category": "Cloud",
+      "blurb": "4 lessons · 40 checklist items",
+      "resources": [
+        {
+          "title": "Docker docs",
+          "url": "https://docs.docker.com/get-started/",
+          "platform": "Docker"
+        },
+        {
+          "title": "GitHub Actions",
+          "url": "https://docs.github.com/en/actions",
+          "platform": "GitHub"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "devops-linux-and-command-line",
+          "title": "Linux and command line",
+          "items": [
+            "Filesystem hierarchy",
+            "pwd, ls, cd, mkdir, cp, mv, rm",
+            "cat, less, grep, find, head, tail",
+            "Permissions and chmod/chown",
+            "Processes and signals",
+            "Environment variables",
+            "SSH and SCP",
+            "Package managers",
+            "systemd and service logs"
+          ]
+        },
+        {
+          "id": "devops-git-and-collaboration",
+          "title": "Git and collaboration",
+          "items": [
+            "init, clone, status, add, commit, push, pull",
+            "Branches and merge",
+            "Rebase and cherry-pick",
+            "Conflict resolution",
+            "Stash and tags",
+            "GitHub pull requests and code reviews",
+            "Issues and project boards",
+            ".gitignore",
+            "Commit messages and branching strategy",
+            "Protecting secrets"
+          ]
+        },
+        {
+          "id": "devops-docker",
+          "title": "Docker",
+          "items": [
+            "Images and containers",
+            "Dockerfile instructions",
+            "Build context and layers",
+            "Ports and volumes",
+            "Environment variables",
+            "Docker Compose",
+            "Networks",
+            "Multi-stage builds",
+            "Container logs and exec",
+            "Image scanning and non-root users"
+          ]
+        },
+        {
+          "id": "devops-ci-cd-and-operations",
+          "title": "CI/CD and operations",
+          "items": [
+            "Continuous integration and delivery",
+            "GitHub Actions workflows",
+            "Build, test and deploy stages",
+            "Secrets and environment protection",
+            "Artifacts and caching",
+            "Automated tests in pipelines",
+            "Deployment strategies",
+            "Monitoring, logging and alerting",
+            "Infrastructure as Code overview",
+            "Terraform basics",
+            "Kubernetes concepts: pods, deployments, services, ingress"
+          ]
+        }
+      ],
+      "itemCount": 40,
+      "lessonCount": 4,
+      "hoursLabel": "8h"
+    },
+    {
+      "id": "quality",
+      "number": 17,
+      "title": "Testing, Security and Software Quality",
+      "nav": "Testing",
+      "category": "Quality",
+      "blurb": "4 lessons · 41 checklist items",
+      "resources": [
+        {
+          "title": "OWASP Top 10",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "platform": "OWASP"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "quality-testing-levels",
+          "title": "Testing levels",
+          "items": [
+            "Unit testing",
+            "Integration testing",
+            "API testing",
+            "End-to-end testing",
+            "Smoke and regression testing",
+            "Performance and load testing",
+            "Manual exploratory testing"
+          ]
+        },
+        {
+          "id": "quality-testing-tools",
+          "title": "Testing tools",
+          "items": [
+            "JUnit and Mockito",
+            "Vitest or Jest",
+            "React Testing Library",
+            "Supertest",
+            "Postman",
+            "Playwright or Cypress",
+            "Test data and fixtures",
+            "Mocks, stubs and spies",
+            "Coverage and meaningful assertions"
+          ]
+        },
+        {
+          "id": "quality-application-security",
+          "title": "Application security",
+          "items": [
+            "Authentication vs authorization",
+            "Least privilege",
+            "Password hashing",
+            "JWT and session security",
+            "HTTPS and TLS",
+            "CORS",
+            "CSRF",
+            "XSS",
+            "SQL and NoSQL injection",
+            "SSRF",
+            "Path traversal",
+            "File upload validation",
+            "Secrets and key rotation",
+            "Dependency vulnerability scanning",
+            "OWASP Top 10"
+          ]
+        },
+        {
+          "id": "quality-quality-practices",
+          "title": "Quality practices",
+          "items": [
+            "Readable code and naming",
+            "SOLID principles",
+            "DRY, KISS and YAGNI",
+            "Separation of concerns",
+            "Refactoring",
+            "Code review",
+            "Linting and formatting",
+            "Documentation",
+            "Error messages and logging",
+            "Accessibility and performance"
+          ]
+        }
+      ],
+      "itemCount": 41,
+      "lessonCount": 4,
+      "hoursLabel": "8h"
+    },
+    {
+      "id": "architecture",
+      "number": 18,
+      "title": "Architecture and System Design",
+      "nav": "Architecture",
+      "category": "Quality",
+      "blurb": "3 lessons · 28 checklist items",
+      "resources": [
+        {
+          "title": "System design primer",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "platform": "GitHub"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "architecture-application-architecture",
+          "title": "Application architecture",
+          "items": [
+            "Monolith and modular monolith",
+            "Layered architecture",
+            "MVC",
+            "Clean architecture",
+            "Hexagonal architecture overview",
+            "Domain-driven design basics",
+            "Separation of concerns",
+            "Dependency inversion"
+          ]
+        },
+        {
+          "id": "architecture-system-design-basics",
+          "title": "System design basics",
+          "items": [
+            "Functional and non-functional requirements",
+            "Capacity estimation basics",
+            "Latency and throughput",
+            "Caching strategies",
+            "Load balancing",
+            "Horizontal vs vertical scaling",
+            "Database replication",
+            "Sharding",
+            "Queues and asynchronous processing",
+            "Consistency and availability",
+            "Rate limiting",
+            "API gateway"
+          ]
+        },
+        {
+          "id": "architecture-distributed-systems",
+          "title": "Distributed systems",
+          "items": [
+            "Service discovery",
+            "Timeouts and retries",
+            "Circuit breakers",
+            "Idempotent consumers",
+            "Event-driven architecture",
+            "Message brokers: SQS, RabbitMQ, Kafka concepts",
+            "Saga pattern overview",
+            "Observability: logs, metrics, traces"
+          ]
+        }
+      ],
+      "itemCount": 28,
+      "lessonCount": 3,
+      "hoursLabel": "6h"
+    },
+    {
+      "id": "shopify",
+      "number": 19,
+      "title": "Shopify and E-commerce Development",
+      "nav": "Shopify",
+      "category": "Commerce",
+      "blurb": "4 lessons · 32 checklist items",
+      "resources": [
+        {
+          "title": "Shopify Liquid",
+          "url": "https://shopify.dev/docs/api/liquid",
+          "platform": "Shopify"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "shopify-shopify-foundations",
+          "title": "Shopify foundations",
+          "items": [
+            "Store setup and admin",
+            "Products, variants and collections",
+            "Inventory and locations",
+            "Customers and orders",
+            "Discounts, shipping and taxes",
+            "Themes and theme editor"
+          ]
+        },
+        {
+          "id": "shopify-shopify-theme-development",
+          "title": "Shopify theme development",
+          "items": [
+            "Liquid syntax and objects",
+            "Tags, filters and operators",
+            "Sections and blocks",
+            "JSON templates",
+            "Snippets and layouts",
+            "Theme settings and schema",
+            "Metafields and metaobjects",
+            "Assets and locales",
+            "Responsive storefront design",
+            "Theme Check and Shopify CLI"
+          ]
+        },
+        {
+          "id": "shopify-shopify-integrations",
+          "title": "Shopify integrations",
+          "items": [
+            "Storefront API and GraphQL",
+            "Admin API overview",
+            "Webhooks",
+            "App authentication",
+            "Checkout and cart concepts",
+            "Third-party app integration",
+            "Rate limits and API versioning",
+            "Secure handling of access tokens"
+          ]
+        },
+        {
+          "id": "shopify-e-commerce-engineering",
+          "title": "E-commerce engineering",
+          "items": [
+            "Cart and checkout flow",
+            "Product search and filtering",
+            "Payment gateway concepts",
+            "Order lifecycle",
+            "Inventory synchronization",
+            "Shipping integrations",
+            "Analytics and conversion tracking",
+            "SEO for product pages"
+          ]
+        }
+      ],
+      "itemCount": 32,
+      "lessonCount": 4,
+      "hoursLabel": "8h"
+    },
+    {
+      "id": "interview",
+      "number": 20,
+      "title": "Professional Skills and Interview Preparation",
+      "nav": "DSA / Interview",
+      "category": "Career",
+      "blurb": "3 lessons · 24 checklist items",
+      "resources": [
+        {
+          "title": "NeetCode roadmap",
+          "url": "https://neetcode.io/roadmap",
+          "platform": "NeetCode"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "interview-engineering-workflow",
+          "title": "Engineering workflow",
+          "items": [
+            "Understand requirements and acceptance criteria",
+            "Break work into tasks",
+            "Estimate and communicate progress",
+            "Use Agile and Scrum basics",
+            "Daily updates and blockers",
+            "Write technical documentation",
+            "Collaborate with designers, QA and product teams"
+          ]
+        },
+        {
+          "id": "interview-problem-solving",
+          "title": "Problem solving",
+          "items": [
+            "Data structures: arrays, strings, linked lists, stacks, queues, hash maps, trees, graphs",
+            "Algorithms: searching, sorting, recursion, two pointers, sliding window, BFS, DFS",
+            "Big-O time and space complexity",
+            "Debugging approach",
+            "SQL query practice",
+            "API design exercises"
+          ]
+        },
+        {
+          "id": "interview-interview-readiness",
+          "title": "Interview readiness",
+          "items": [
+            "Explain projects end-to-end",
+            "Explain architecture and database design",
+            "Discuss trade-offs and challenges",
+            "Core Java and OOP questions",
+            "JavaScript and React questions",
+            "Node and API questions",
+            "SQL and MongoDB questions",
+            "Spring Boot questions",
+            "Basic cloud and Docker questions",
+            "Behavioral examples using STAR",
+            "Resume and portfolio walkthrough"
+          ]
+        }
+      ],
+      "itemCount": 24,
+      "lessonCount": 3,
+      "hoursLabel": "6h"
+    },
+    {
+      "id": "projects",
+      "number": 21,
+      "title": "Suggested Project Ladder",
+      "nav": "Projects",
+      "category": "Career",
+      "blurb": "1 lessons · 9 checklist items",
+      "resources": [
+        {
+          "title": "Your GitHub",
+          "url": "https://github.com/",
+          "platform": "GitHub"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "projects-ladder",
+          "title": "Suggested project ladder",
+          "items": [
+            "Beginner — Responsive personal portfolio with semantic HTML, CSS, JavaScript, accessibility and deployment.",
+            "Frontend — React task manager with routing, forms, validation, API calls, loading/error states and tests.",
+            "Backend — Express REST API with TypeScript, JWT authentication, role permissions, validation and PostgreSQL.",
+            "Java backend — Spring Boot inventory or billing API with JPA, MySQL/PostgreSQL, validation, security and tests.",
+            "Full stack — React + Spring Boot or React + Node application with authentication, dashboards, CRUD, search and file uploads.",
+            "NoSQL — MongoDB-backed catalog or booking service with aggregation, indexes and pagination.",
+            "AI — RAG-based document assistant with citations, access controls, evaluation and usage limits.",
+            "Cloud/DevOps — Containerize a full-stack app, add GitHub Actions CI/CD, deploy to AWS, configure monitoring and backups.",
+            "E-commerce — Shopify theme customization or integration using Liquid, Storefront API/GraphQL and webhooks."
+          ]
+        }
+      ],
+      "itemCount": 9,
+      "lessonCount": 1,
+      "hoursLabel": "4h"
+    },
+    {
+      "id": "checklist",
+      "number": 22,
+      "title": "Final Skills Checklist",
+      "nav": "Final",
+      "category": "Career",
+      "blurb": "1 lessons · 11 checklist items",
+      "resources": [
+        {
+          "title": "MDN Learn",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "platform": "MDN"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "checklist-start",
+          "title": "Final Skills Checklist",
+          "items": [
+            "I can build a responsive, accessible frontend without copying a template blindly.",
+            "I understand JavaScript asynchronous behavior and can debug browser issues.",
+            "I can build React components, forms, routes and data-fetching flows.",
+            "I can design and implement a secure REST API.",
+            "I can use Node/Express and Java/Spring Boot for backend services.",
+            "I can model relational and document databases and write efficient queries.",
+            "I can write tests and use Git branches and pull requests.",
+            "I can containerize an application and explain its deployment.",
+            "I can deploy and monitor an application in a cloud environment such as AWS.",
+            "I can integrate an AI model responsibly and evaluate its output.",
+            "I can explain the architecture, trade-offs, security and deployment of my projects."
+          ]
+        }
+      ],
+      "itemCount": 11,
+      "lessonCount": 1,
+      "hoursLabel": "4h"
+    }
+  ]
+}

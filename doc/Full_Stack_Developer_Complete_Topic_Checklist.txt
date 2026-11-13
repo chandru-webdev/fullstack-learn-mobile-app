@@ -1,0 +1,1018 @@
+
+Full-Stack Developer
+Complete Topic-by-Topic Learning Syllabus
+HTML • CSS • JavaScript • TypeScript • React • Node.js • Express • Python • Java • Spring Boot • APIs • Databases • AI • Cloud • AWS • DevOps
+Purpose: a broad, structured checklist covering core concepts, practical subtopics, tooling, testing, deployment, security, and real-world engineering practices. Work through the sections in order, build small exercises, then combine the skills in projects. You do not need to master every advanced topic before building applications.
+How to use this document
+Mark each topic as Not started / Learning / Practiced / Confident.
+For every major topic, write a short explanation in your own words and build at least one practical example.
+Prioritize fundamentals, debugging, security, testing, Git, databases, and deployment—not just framework syntax.
+Treat advanced and optional topics as a reference list; choose them based on the job or project.
+1. Web and Internet Fundamentals
+How the web works
+☐ Client and server
+☐ Browser rendering lifecycle
+☐ DNS lookup
+☐ IP addresses and ports
+☐ TCP/IP basics
+☐ TLS/HTTPS handshake
+☐ HTTP request/response cycle
+☐ Headers and body
+☐ Cookies and sessions
+☐ Caching
+☐ CDN basics
+☐ Reverse proxy
+☐ Web hosting and domains
+HTTP fundamentals
+☐ HTTP methods: GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD
+☐ Status-code families: 1xx, 2xx, 3xx, 4xx, 5xx
+☐ Common status codes: 200, 201, 204, 301, 302, 304, 400, 401, 403, 404, 409, 422, 429, 500, 502, 503
+☐ Content types and MIME types
+☐ JSON, form data, URL encoding
+☐ CORS and preflight requests
+☐ Idempotency
+☐ Pagination, filtering, sorting
+☐ Rate limiting and retries
+Developer environment
+☐ VS Code and extensions
+☐ Terminal / command line
+☐ Files, folders, paths and environment variables
+☐ Package managers
+☐ Browser DevTools: Elements, Console, Network, Sources, Performance, Application
+☐ Debugging and breakpoints
+☐ Reading documentation and error messages
+2. HTML5
+Document foundations
+☐ DOCTYPE
+☐ html, head, body
+☐ Metadata and viewport
+☐ Title, description, favicon
+☐ HTML entities and comments
+☐ Block vs inline elements
+Text and content
+☐ Headings and paragraphs
+☐ Strong, emphasis, mark, small, del, ins
+☐ Lists: ordered, unordered, description
+☐ Links and anchor targets
+☐ Images, alt text, figure and figcaption
+☐ Audio and video
+☐ Iframes and embeds
+Semantic HTML
+☐ header, nav, main, section, article, aside, footer
+☐ Address, time, details, summary
+☐ Semantic structure and landmark regions
+☐ Choosing elements for meaning
+Forms
+☐ form, label, input, textarea, select, option, button
+☐ Input types
+☐ name, value, placeholder, required
+☐ min, max, minlength, maxlength, pattern
+☐ Radio buttons and checkboxes
+☐ Fieldset and legend
+☐ Native validation
+☐ Autocomplete and accessible labels
+☐ Form submission and FormData
+Tables and advanced HTML
+☐ table, caption, thead, tbody, tfoot, tr, th, td
+☐ rowspan and colspan
+☐ Data attributes
+☐ Custom data-* attributes
+☐ Template and slot concepts
+☐ HTML parsing and DOM tree
+Accessibility and SEO
+☐ Alt text
+☐ Keyboard navigation
+☐ Heading hierarchy
+☐ Accessible names and labels
+☐ ARIA roles and attributes when needed
+☐ Open Graph metadata
+☐ Canonical URLs
+☐ Structured data basics
+☐ Search-friendly semantic markup
+3. CSS3 and Responsive UI
+CSS foundations
+☐ Syntax, selectors and declarations
+☐ Element, class, ID, attribute and pseudo selectors
+☐ Combinators
+☐ Specificity and cascade
+☐ Inheritance and initial/inherit/unset/revert
+☐ !important and why to avoid overuse
+☐ External, internal and inline CSS
+☐ CSS variables / custom properties
+Box model and layout
+☐ Content, padding, border, margin
+☐ box-sizing
+☐ Width, height, min/max dimensions
+☐ Display: block, inline, inline-block, none
+☐ Overflow and scrolling
+☐ Position: static, relative, absolute, fixed, sticky
+☐ z-index and stacking contexts
+☐ Float and clear (legacy awareness)
+☐ Margin collapse
+Typography and visual styling
+☐ Font family, size, weight, style
+☐ Line height and letter spacing
+☐ Text alignment and decoration
+☐ Web fonts and @font-face
+☐ Colors: HEX, RGB, HSL, alpha
+☐ Backgrounds, gradients and images
+☐ Borders, radius, outlines and shadows
+☐ Opacity and visibility
+Flexbox and Grid
+☐ Flex container and items
+☐ Main/cross axis
+☐ justify-content, align-items, align-content
+☐ flex-grow, flex-shrink, flex-basis, gap, wrap
+☐ Grid tracks and templates
+☐ fr units, repeat, minmax
+☐ Grid areas and placement
+☐ auto-fit and auto-fill
+☐ Alignment and responsive grids
+Responsive design
+☐ Mobile-first design
+☐ Media queries and breakpoints
+☐ Fluid sizing: %, vw, vh, rem, em, ch
+☐ clamp(), min(), max()
+☐ Responsive images
+☐ Responsive navigation
+☐ Touch targets
+☐ Orientation and reduced-motion preferences
+Modern CSS
+☐ Pseudo-classes and pseudo-elements
+☐ Transitions and transforms
+☐ Keyframe animations
+☐ 2D/3D transforms
+☐ Filters and blend modes
+☐ Clip-path basics
+☐ Container queries
+☐ CSS nesting awareness
+☐ Layers with @layer
+☐ SCSS/Sass basics
+☐ CSS Modules and utility CSS
+☐ Tailwind CSS fundamentals
+UI quality
+☐ Design tokens
+☐ Spacing and type scales
+☐ Reusable components
+☐ Dark/light themes
+☐ Focus states
+☐ Hover/active/disabled states
+☐ Cross-browser testing
+☐ Print styles
+☐ Avoiding layout shift
+4. JavaScript (Modern ES6+)
+Language fundamentals
+☐ Values and data types
+☐ var, let, const
+☐ Operators and expressions
+☐ Type coercion and strict equality
+☐ Truthy and falsy values
+☐ Template literals
+☐ Conditionals and switch
+☐ Loops: for, while, for...of, for...in
+☐ Functions and parameters
+☐ Arrow functions
+☐ Scope and lexical scope
+☐ Hoisting
+☐ Closures
+☐ Execution context and call stack
+Data structures
+☐ Strings and string methods
+☐ Arrays and array methods
+☐ Objects and property access
+☐ Destructuring
+☐ Spread and rest
+☐ Map, Set, WeakMap, WeakSet
+☐ Date and Intl
+☐ Math and Number
+☐ JSON parse/stringify
+☐ Optional chaining and nullish coalescing
+Advanced language concepts
+☐ this keyword
+☐ call, apply, bind
+☐ Prototypes and prototype chain
+☐ Constructor functions
+☐ Classes, inheritance and super
+☐ Encapsulation and private fields
+☐ Modules: import/export
+☐ Error handling: try/catch/finally and custom errors
+☐ Iterators and generators
+☐ Symbols
+☐ Garbage collection basics
+Asynchronous JavaScript
+☐ Synchronous vs asynchronous code
+☐ Callbacks
+☐ Promises and chaining
+☐ async/await
+☐ Promise.all, allSettled, race, any
+☐ Event loop
+☐ Microtasks and macrotasks
+☐ Timers
+☐ Fetch API
+☐ AbortController and cancellation
+☐ Error handling in async code
+Browser JavaScript
+☐ DOM selection and traversal
+☐ Creating, updating and removing elements
+☐ Events and event object
+☐ Bubbling, capturing and delegation
+☐ Forms and validation
+☐ LocalStorage and SessionStorage
+☐ Cookies basics
+☐ History and URL APIs
+☐ Geolocation and browser permissions
+☐ Clipboard API
+☐ IntersectionObserver and MutationObserver
+☐ Web Workers and Service Workers overview
+Quality and performance
+☐ Debugging in DevTools
+☐ ESLint and Prettier
+☐ Unit testing basics
+☐ Memory leaks
+☐ Debouncing and throttling
+☐ Event delegation
+☐ Lazy loading
+☐ Code splitting concepts
+☐ XSS prevention and safe DOM updates
+5. TypeScript
+Core types
+☐ string, number, boolean, null, undefined, bigint, symbol
+☐ Arrays and tuples
+☐ Enums and alternatives
+☐ any, unknown, never, void
+☐ Literal types
+☐ Union and intersection types
+☐ Type inference and annotations
+Functions and objects
+☐ Function parameter and return types
+☐ Optional and default parameters
+☐ Function overloads
+☐ Object types
+☐ Type aliases and interfaces
+☐ Readonly and optional properties
+☐ Index signatures
+☐ Excess property checks
+Advanced typing
+☐ Generics and constraints
+☐  keyof and typeof
+☐ Indexed access types
+☐ Conditional types
+☐ Mapped types
+☐ Utility types: Partial, Required, Pick, Omit, Record, Exclude, Extract, ReturnType, Parameters
+☐ Discriminated unions
+☐ Type guards and narrowing
+☐ Custom type predicates
+☐ Declaration files and ambient types
+Project setup
+☐ tsconfig.json
+☐ Strict mode
+☐ Target and module settings
+☐ Path aliases
+☐ TypeScript with React
+☐ TypeScript with Node and Express
+☐ Runtime validation vs compile-time types
+☐ Build and debugging
+6. React
+Foundations
+☐ Why React and component-based UI
+☐ Create a React project with Vite
+☐ JSX rules
+☐ Functional components
+☐ Props and one-way data flow
+☐ Composition and children
+☐ Conditional rendering
+☐ Rendering lists and stable keys
+State and events
+☐ Event handling
+☐ useState
+☐ State updates and batching
+☐ Controlled and uncontrolled inputs
+☐ Lifting state up
+☐ Derived state
+☐ Form handling
+☐ State immutability
+Hooks
+☐ Rules of Hooks
+☐ useEffect and cleanup
+☐ Dependency arrays
+☐ useRef
+☐ useContext
+☐ useReducer
+☐ useMemo
+☐ useCallback
+☐ Custom hooks
+☐ useId
+☐ useTransition and useDeferredValue overview
+☐ Avoiding unnecessary effects
+Routing and data
+☐ React Router
+☐ Nested routes and layouts
+☐ Route parameters
+☐ Navigation and redirects
+☐ Protected routes
+☐ Loading and error states
+☐ Fetch and Axios
+☐ Server state vs UI state
+☐ TanStack Query / React Query basics
+Architecture and ecosystem
+☐ Context API
+☐ Redux Toolkit or Zustand overview
+☐ Component folder structure
+☐ Reusable UI components
+☐ Design systems
+☐ React Hook Form
+☐ Zod validation
+☐ Error boundaries
+☐ Portals
+☐ Suspense and lazy loading
+☐ SSR, SSG and hydration concepts
+☐ Next.js fundamentals
+Testing and optimization
+☐ React Testing Library
+☐ Vitest or Jest
+☐ Mocking API calls
+☐ Component and integration tests
+☐ React DevTools
+☐ Profiler
+☐ Memoization
+☐ Virtualization
+☐ Accessibility testing
+☐ SEO considerations
+7. Node.js and Express.js
+Node.js foundations
+☐ Node runtime and V8
+☐ Node vs browser JavaScript
+☐ npm, npx and package.json
+☐ CommonJS and ES modules
+☐ Built-in modules: fs, path, http, os, crypto, events, stream
+☐ Buffers and streams
+☐ EventEmitter
+☐ Environment variables
+☐ Process and exit codes
+☐ Async I/O and event loop
+Express.js
+☐ Create an Express server
+☐ Routes and route parameters
+☐ Query strings and request body
+☐ Middleware and middleware order
+☐ Built-in and custom middleware
+☐ Router modules
+☐ Controllers and services
+☐ Request validation
+☐ Static files
+☐ Centralized error handling
+☐ 404 handling
+☐ CORS configuration
+Backend engineering
+☐ Layered architecture
+☐ MVC pattern
+☐ Dependency injection concepts
+☐ Configuration management
+☐ Logging
+☐ Pagination, filtering and sorting
+☐ File upload and storage
+☐ Email integration
+☐ Background jobs and queues
+☐ Caching with Redis basics
+☐ WebSockets and real-time events
+Authentication and security
+☐ Password hashing with bcrypt/Argon2
+☐ JWT access and refresh tokens
+☐ Sessions and cookies
+☐ OAuth 2.0 and OpenID Connect overview
+☐ Role-based access control
+☐ Input validation and sanitization
+☐ Helmet and security headers
+☐ Rate limiting
+☐ SQL/NoSQL injection prevention
+☐ CSRF, XSS and SSRF awareness
+☐ Secrets management
+Production readiness
+☐ Graceful shutdown
+☐ Health and readiness endpoints
+☐ Process managers
+☐ Clustering basics
+☐ Structured logs
+☐ Monitoring and metrics
+☐ Node performance profiling
+☐ Environment-specific configuration
+8. Python
+Language foundations
+☐ Syntax, indentation and comments
+☐ Variables and built-in types
+☐ Operators and control flow
+☐ Loops and comprehensions
+☐ Functions, arguments and return values
+☐ Scope and namespaces
+☐ Strings and formatting
+☐ Lists, tuples, sets and dictionaries
+Intermediate Python
+☐ Modules and packages
+☐ pip and virtual environments
+☐ File handling and context managers
+☐ Exceptions and custom exceptions
+☐ Classes and objects
+☐ Inheritance, composition and polymorphism
+☐ Dataclasses
+☐ Iterators and generators
+☐ Decorators
+☐ Type hints
+☐ Regular expressions
+☐ JSON and CSV
+Backend and automation
+☐ FastAPI or Flask fundamentals
+☐ Routing and request handling
+☐ Pydantic validation
+☐ SQLAlchemy basics
+☐ API documentation
+☐ Background tasks
+☐ Calling external APIs
+☐ Automation scripts
+☐ Environment variables
+☐ Logging and testing with pytest
+Data and AI foundations
+☐ NumPy basics
+☐ Pandas basics
+☐ Data cleaning
+☐ Jupyter notebooks
+☐ Matplotlib basics
+☐ CSV/JSON data processing
+☐ Model inference concepts
+☐ Using Python SDKs for AI services
+9. Java
+Core Java
+☐ JDK, JRE and JVM
+☐ Compilation and bytecode
+☐ Variables and primitive/reference types
+☐ Operators and control flow
+☐ Methods and parameter passing
+☐ Arrays and strings
+☐ StringBuilder and StringBuffer
+☐ Packages and access modifiers
+Object-oriented programming
+☐ Classes and objects
+☐ Constructors and overloading
+☐ Encapsulation
+☐ Inheritance
+☐ Polymorphism and overriding
+☐ Abstraction
+☐ Interfaces and abstract classes
+☐ Composition vs inheritance
+☐ this and super
+☐ static and final
+Core APIs and advanced topics
+☐ Exception hierarchy and custom exceptions
+☐ Collections: List, Set, Queue, Map
+☐ ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap
+☐ Generics
+☐ Comparable and Comparator
+☐  equals and hashCode
+☐ Java 8+ lambdas
+☐ Functional interfaces
+☐ Streams API
+☐ Optional
+☐ Date and Time API
+☐ Enums and records
+☐ Annotations
+☐ Reflection basics
+Concurrency and JVM
+☐ Thread and Runnable
+☐ ExecutorService
+☐ Synchronization and locks
+☐ volatile and atomic types
+☐ CompletableFuture
+☐ Deadlock and race conditions
+☐ Heap, stack and metaspace
+☐ Garbage collection basics
+☐ JVM memory and profiling
+Java tools and persistence
+☐ Maven or Gradle
+☐ JUnit
+☐ Mockito
+☐ JDBC
+☐ PreparedStatement
+☐ Transactions
+☐ Connection pooling
+☐ Logging with SLF4J and Logback
+☐ Debugging
+10. Spring and Spring Boot
+Spring fundamentals
+☐ Inversion of Control
+☐ Dependency Injection
+☐ Beans and application context
+☐ Component scanning
+☐ @Component, @Service, @Repository, @Controller
+☐ @Configuration and @Bean
+☐ Bean scopes and lifecycle
+☐ Constructor injection
+Spring Boot
+☐ Starters and auto-configuration
+☐ Spring Initializr
+☐ application.properties and YAML
+☐ Profiles
+☐ Configuration properties
+☐ Embedded server
+☐ Actuator and health checks
+☐ Logging configuration
+REST application development
+☐ @RestController and @RequestMapping
+☐ GET, POST, PUT, PATCH, DELETE endpoints
+☐ Path variables and query parameters
+☐ RequestBody and ResponseEntity
+☐ DTOs and mapping
+☐ Validation with Bean Validation
+☐ Global exception handling
+☐ Consistent API response format
+☐ Pagination and sorting
+Persistence
+☐ Spring Data JPA
+☐ Hibernate ORM
+☐ Entities and repositories
+☐ Entity relationships
+☐ One-to-one, one-to-many, many-to-many
+☐ Lazy vs eager loading
+☐ JPQL and native queries
+☐ Transactions and @Transactional
+☐ N+1 query problem
+☐ Database migrations with Flyway or Liquibase
+Security and advanced Spring
+☐ Spring Security filter chain
+☐ Authentication and authorization
+☐ PasswordEncoder
+☐ JWT integration
+☐ Method-level security
+☐ CORS and CSRF
+☐ OAuth2 resource server overview
+☐ Caching
+☐ Scheduling
+☐ Async methods
+☐ Messaging overview
+☐ Microservices fundamentals
+☐ Spring Cloud overview
+Testing and delivery
+☐ JUnit 5
+☐ Mockito
+☐ MockMvc
+☐ Spring Boot integration tests
+☐ Testcontainers overview
+☐ Maven build lifecycle
+☐ Profiles and external configuration
+☐ Dockerizing a Spring Boot app
+11. REST APIs and API Engineering
+API design
+☐ Resource-oriented URLs
+☐ REST constraints and statelessness
+☐ HTTP methods and status codes
+☐ JSON request/response design
+☐ Naming conventions
+☐ Versioning strategies
+☐ Pagination: offset and cursor
+☐ Filtering and sorting
+☐ Search endpoints
+☐ Bulk operations
+Reliability and documentation
+☐ Validation and error schemas
+☐ Idempotency keys
+☐ Rate limits and quotas
+☐ Retries and exponential backoff
+☐ Timeouts
+☐ Caching and ETags
+☐ OpenAPI / Swagger
+☐ Postman collections and environments
+☐ API contracts
+☐ Backward compatibility
+Integrations
+☐ Third-party API authentication
+☐ API keys and OAuth
+☐ Webhooks and signature verification
+☐ Webhook retries and idempotency
+☐ File and media APIs
+☐ Payment gateway concepts
+☐ Email and SMS APIs
+☐ GraphQL fundamentals
+☐ SOAP awareness
+12. Databases: SQL, MySQL and PostgreSQL
+Database fundamentals
+☐ Relational vs non-relational databases
+☐ Tables, rows and columns
+☐ Data types
+☐ Primary and foreign keys
+☐ Constraints: NOT NULL, UNIQUE, CHECK, DEFAULT
+☐ Relationships and cardinality
+☐ ER diagrams and normalization
+☐ 1NF, 2NF, 3NF and denormalization
+SQL essentials
+☐ CREATE, ALTER, DROP, TRUNCATE
+☐ INSERT, SELECT, UPDATE, DELETE
+☐ WHERE, ORDER BY, LIMIT/OFFSET
+☐ DISTINCT and aliases
+☐ LIKE, IN, BETWEEN, IS NULL
+☐ Aggregate functions
+☐ GROUP BY and HAVING
+☐ INNER, LEFT, RIGHT and FULL joins
+☐ Self joins and cross joins
+☐ Subqueries and correlated subqueries
+☐ UNION and UNION ALL
+☐ CASE expressions
+☐ CTEs and recursive CTEs
+☐ Window functions
+Database engineering
+☐ Indexes and index types
+☐ Query plans and EXPLAIN
+☐ Transactions and ACID
+☐ Isolation levels
+☐ Locks and deadlocks
+☐ Views and materialized views
+☐ Stored procedures and functions
+☐ Triggers
+☐ Sequences and identity columns
+☐ Backup and restore
+☐ Connection pooling
+☐ Migrations and schema versioning
+MySQL specifics
+☐ MySQL server and client
+☐ InnoDB
+☐ AUTO_INCREMENT
+☐ Indexes and EXPLAIN
+☐ Transactions
+☐ Users and privileges
+☐ mysqldump and restore
+☐ MySQL Workbench
+PostgreSQL specifics
+☐ Schemas and search_path
+☐ SERIAL and IDENTITY
+☐ JSON and JSONB
+☐ UUID
+☐ Array and custom types
+☐ RETURNING
+☐ UPSERT with ON CONFLICT
+☐ Full-text search basics
+☐ Extensions and pgAdmin
+☐ pg_dump and restore
+☐ Roles and privileges
+13. MongoDB and NoSQL
+MongoDB foundations
+☐ Documents and collections
+☐ BSON and JSON
+☐ MongoDB Atlas and local setup
+☐ CRUD operations
+☐ Filters and projections
+☐ Sorting, limit and skip
+☐ Nested documents and arrays
+☐ ObjectId
+Data modeling
+☐ Embedding vs referencing
+☐ One-to-one and one-to-many modeling
+☐ Schema validation
+☐ Denormalization trade-offs
+☐ Document size and access patterns
+Advanced MongoDB
+☐ Indexes: single, compound, multikey, text, TTL, unique
+☐ Aggregation pipeline
+☐ $match, $project, $group, $sort, $lookup, $unwind
+☐ Transactions
+☐ Replica sets
+☐ Sharding concepts
+☐ Change streams
+☐ Backup and restore
+☐ Security roles and network access
+Node integration
+☐ MongoDB Node driver
+☐ Mongoose schemas and models
+☐ Validation and middleware
+☐ Population
+☐ Lean queries
+☐ Indexes in Mongoose
+☐ Transactions and error handling
+14. AI, Generative AI and AI Tools
+AI foundations
+☐ AI vs machine learning vs deep learning
+☐ Supervised, unsupervised and reinforcement learning
+☐ Training vs inference
+☐ Models, parameters and tokens
+☐ Embeddings and vector representations
+☐ Neural network basics
+☐ Evaluation and hallucinations
+☐ Privacy, bias and responsible AI
+Generative AI and LLMs
+☐ Large language models
+☐ Tokens and context windows
+☐ System, developer and user instructions
+☐ Prompt structure and context
+☐ Zero-shot and few-shot prompting
+☐ Structured JSON output
+☐ Function/tool calling
+☐ Streaming responses
+☐ Temperature and sampling
+☐ Multimodal models: text, image, audio
+AI application development
+☐ Calling model APIs
+☐ API keys and secret storage
+☐ Prompt templates
+☐ Conversation history and memory design
+☐ Embeddings
+☐ Vector databases
+☐ Semantic search
+☐ Retrieval-Augmented Generation (RAG)
+☐ Chunking and metadata
+☐ Hybrid search and reranking
+☐ Citations and grounded answers
+☐ Guardrails and content filtering
+☐ Evaluation datasets
+☐ Latency and token cost control
+☐ Caching and fallbacks
+AI agents and workflows
+☐ Agents vs ordinary chat completions
+☐ Tools and function calling
+☐ Planning and execution loops
+☐ State and checkpoints
+☐ Human approval steps
+☐ Multi-agent concepts
+☐ Workflow orchestration
+☐ Observability and tracing
+☐ Prompt injection risks
+AI coding tools
+☐ ChatGPT
+☐ Claude
+☐ GitHub Copilot
+☐ Cursor
+☐ Windsurf
+☐ Gemini
+☐ Perplexity
+☐ OpenCode
+☐ Codeium / Windsurf awareness
+☐ Figma AI and design assistants
+☐ Prompting for code generation
+☐ Repository context and rules files
+☐ Reviewing generated code
+☐ Testing AI-generated code
+☐ Never trusting generated secrets or dependencies blindly
+AI project practice
+☐ Build a document Q&A assistant
+☐ Build a support chatbot with RAG
+☐ Build a structured data extraction tool
+☐ Build an AI feature with human review
+☐ Measure accuracy, latency and cost
+15. Cloud, AWS and Deployment
+Cloud foundations
+☐ What cloud computing is
+☐ IaaS, PaaS and SaaS
+☐ Public, private and hybrid cloud
+☐ Regions and availability zones
+☐ Scalability and elasticity
+☐ High availability and fault tolerance
+☐ Shared responsibility model
+☐ Pay-as-you-go cost model
+AWS identity and networking
+☐ AWS account and billing alerts
+☐ IAM users, roles, policies and least privilege
+☐ MFA
+☐ VPC, subnets and route tables
+☐ Internet and NAT gateways
+☐ Security groups and network ACLs
+☐ Route 53 DNS
+☐ CloudFront CDN
+☐ ACM certificates and HTTPS
+AWS compute and storage
+☐ EC2 instances and key pairs
+☐ AMI and EBS
+☐ S3 buckets, objects and policies
+☐ S3 versioning and lifecycle
+☐ Static website hosting
+☐ Lambda functions
+☐ API Gateway
+☐ Elastic Beanstalk overview
+☐ ECS and ECR overview
+☐ Lightsail overview
+AWS databases and operations
+☐ RDS for MySQL/PostgreSQL
+☐ DynamoDB basics
+☐ ElastiCache overview
+☐ Secrets Manager and Parameter Store
+☐ CloudWatch logs, metrics and alarms
+☐ CloudTrail auditing
+☐ AWS Backup
+☐ Budgets and Cost Explorer
+Deployment practice
+☐ Build frontend for production
+☐ Deploy React static app
+☐ Deploy Node/Express API
+☐ Deploy Spring Boot service
+☐ Configure production database
+☐ Environment variables and secrets
+☐ Domain and DNS setup
+☐ HTTPS and certificates
+☐ Logs and health checks
+☐ Rollback and backup strategy
+16. Docker, Linux and DevOps
+Linux and command line
+☐ Filesystem hierarchy
+☐ pwd, ls, cd, mkdir, cp, mv, rm
+☐ cat, less, grep, find, head, tail
+☐ Permissions and chmod/chown
+☐ Processes and signals
+☐ Environment variables
+☐ SSH and SCP
+☐ Package managers
+☐ systemd and service logs
+Git and collaboration
+☐ init, clone, status, add, commit, push, pull
+☐ Branches and merge
+☐ Rebase and cherry-pick
+☐ Conflict resolution
+☐ Stash and tags
+☐ GitHub pull requests and code reviews
+☐ Issues and project boards
+☐ .gitignore
+☐ Commit messages and branching strategy
+☐ Protecting secrets
+Docker
+☐ Images and containers
+☐ Dockerfile instructions
+☐ Build context and layers
+☐ Ports and volumes
+☐ Environment variables
+☐ Docker Compose
+☐ Networks
+☐ Multi-stage builds
+☐ Container logs and exec
+☐ Image scanning and non-root users
+CI/CD and operations
+☐ Continuous integration and delivery
+☐ GitHub Actions workflows
+☐ Build, test and deploy stages
+☐ Secrets and environment protection
+☐ Artifacts and caching
+☐ Automated tests in pipelines
+☐ Deployment strategies
+☐ Monitoring, logging and alerting
+☐ Infrastructure as Code overview
+☐ Terraform basics
+☐ Kubernetes concepts: pods, deployments, services, ingress
+17. Testing, Security and Software Quality
+Testing levels
+☐ Unit testing
+☐ Integration testing
+☐ API testing
+☐ End-to-end testing
+☐ Smoke and regression testing
+☐ Performance and load testing
+☐ Manual exploratory testing
+Testing tools
+☐ JUnit and Mockito
+☐ Vitest or Jest
+☐ React Testing Library
+☐ Supertest
+☐ Postman
+☐ Playwright or Cypress
+☐ Test data and fixtures
+☐ Mocks, stubs and spies
+☐ Coverage and meaningful assertions
+Application security
+☐ Authentication vs authorization
+☐ Least privilege
+☐ Password hashing
+☐ JWT and session security
+☐ HTTPS and TLS
+☐ CORS
+☐ CSRF
+☐ XSS
+☐ SQL and NoSQL injection
+☐ SSRF
+☐ Path traversal
+☐ File upload validation
+☐ Secrets and key rotation
+☐ Dependency vulnerability scanning
+☐ OWASP Top 10
+Quality practices
+☐ Readable code and naming
+☐ SOLID principles
+☐ DRY, KISS and YAGNI
+☐ Separation of concerns
+☐ Refactoring
+☐ Code review
+☐ Linting and formatting
+☐ Documentation
+☐ Error messages and logging
+☐ Accessibility and performance
+18. Architecture and System Design
+Application architecture
+☐ Monolith and modular monolith
+☐ Layered architecture
+☐ MVC
+☐ Clean architecture
+☐ Hexagonal architecture overview
+☐ Domain-driven design basics
+☐ Separation of concerns
+☐ Dependency inversion
+System design basics
+☐ Functional and non-functional requirements
+☐ Capacity estimation basics
+☐ Latency and throughput
+☐ Caching strategies
+☐ Load balancing
+☐ Horizontal vs vertical scaling
+☐ Database replication
+☐ Sharding
+☐ Queues and asynchronous processing
+☐ Consistency and availability
+☐ Rate limiting
+☐ API gateway
+Distributed systems
+☐ Service discovery
+☐ Timeouts and retries
+☐ Circuit breakers
+☐ Idempotent consumers
+☐ Event-driven architecture
+☐ Message brokers: SQS, RabbitMQ, Kafka concepts
+☐ Saga pattern overview
+☐ Observability: logs, metrics, traces
+19. Shopify and E-commerce Development
+Shopify foundations
+☐ Store setup and admin
+☐ Products, variants and collections
+☐ Inventory and locations
+☐ Customers and orders
+☐ Discounts, shipping and taxes
+☐ Themes and theme editor
+Shopify theme development
+☐ Liquid syntax and objects
+☐ Tags, filters and operators
+☐ Sections and blocks
+☐ JSON templates
+☐ Snippets and layouts
+☐ Theme settings and schema
+☐ Metafields and metaobjects
+☐ Assets and locales
+☐ Responsive storefront design
+☐ Theme Check and Shopify CLI
+Shopify integrations
+☐ Storefront API and GraphQL
+☐ Admin API overview
+☐ Webhooks
+☐ App authentication
+☐ Checkout and cart concepts
+☐ Third-party app integration
+☐ Rate limits and API versioning
+☐ Secure handling of access tokens
+E-commerce engineering
+☐ Cart and checkout flow
+☐ Product search and filtering
+☐ Payment gateway concepts
+☐ Order lifecycle
+☐ Inventory synchronization
+☐ Shipping integrations
+☐ Analytics and conversion tracking
+☐ SEO for product pages
+20. Professional Skills and Interview Preparation
+Engineering workflow
+☐ Understand requirements and acceptance criteria
+☐ Break work into tasks
+☐ Estimate and communicate progress
+☐ Use Agile and Scrum basics
+☐ Daily updates and blockers
+☐ Write technical documentation
+☐ Collaborate with designers, QA and product teams
+Problem solving
+☐ Data structures: arrays, strings, linked lists, stacks, queues, hash maps, trees, graphs
+☐ Algorithms: searching, sorting, recursion, two pointers, sliding window, BFS, DFS
+☐ Big-O time and space complexity
+☐ Debugging approach
+☐ SQL query practice
+☐ API design exercises
+Interview readiness
+☐ Explain projects end-to-end
+☐ Explain architecture and database design
+☐ Discuss trade-offs and challenges
+☐ Core Java and OOP questions
+☐ JavaScript and React questions
+☐ Node and API questions
+☐ SQL and MongoDB questions
+☐ Spring Boot questions
+☐ Basic cloud and Docker questions
+☐ Behavioral examples using STAR
+☐ Resume and portfolio walkthrough
+21. Suggested Project Ladder
+Beginner — Responsive personal portfolio with semantic HTML, CSS, JavaScript, accessibility and deployment.
+Frontend — React task manager with routing, forms, validation, API calls, loading/error states and tests.
+Backend — Express REST API with TypeScript, JWT authentication, role permissions, validation and PostgreSQL.
+Java backend — Spring Boot inventory or billing API with JPA, MySQL/PostgreSQL, validation, security and tests.
+Full stack — React + Spring Boot or React + Node application with authentication, dashboards, CRUD, search and file uploads.
+NoSQL — MongoDB-backed catalog or booking service with aggregation, indexes and pagination.
+AI — RAG-based document assistant with citations, access controls, evaluation and usage limits.
+Cloud/DevOps — Containerize a full-stack app, add GitHub Actions CI/CD, deploy to AWS, configure monitoring and backups.
+E-commerce — Shopify theme customization or integration using Liquid, Storefront API/GraphQL and webhooks.
+22. Final Skills Checklist
+☐ I can build a responsive, accessible frontend without copying a template blindly.
+☐ I understand JavaScript asynchronous behavior and can debug browser issues.
+☐ I can build React components, forms, routes and data-fetching flows.
+☐ I can design and implement a secure REST API.
+☐ I can use Node/Express and Java/Spring Boot for backend services.
+☐ I can model relational and document databases and write efficient queries.
+☐ I can write tests and use Git branches and pull requests.
+☐ I can containerize an application and explain its deployment.
+☐ I can deploy and monitor an application in a cloud environment such as AWS.
+☐ I can integrate an AI model responsibly and evaluate its output.
+☐ I can explain the architecture, trade-offs, security and deployment of my projects.
+Reference note
+This is a comprehensive learning map, not a claim that every item is required for every Software Engineer role. Technology ecosystems change; verify current versions and recommended practices in official documentation. The word “could” in the original topic list was interpreted as “cloud”, and Docker/Linux/DevOps topics are included because they support practical cloud and AWS deployment.
