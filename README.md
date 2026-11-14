@@ -12,7 +12,7 @@ npx expo start
 
 Open in **Expo Go**, or web at the URL Metro prints.
 
-## Repo layout
+## Repo layout   
 
 - `study-native/` — mobile app (this GitHub project)
 - `doc/` — Full Stack Developer topic checklist
